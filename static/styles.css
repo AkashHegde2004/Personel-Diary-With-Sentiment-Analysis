@@ -1,0 +1,98 @@
+body {
+    background-color: #f8f9fa;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin-top: 50px;
+  }
+  
+  header h1 {
+    color: #3498db;
+    font-weight: bold;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card-title {
+    color: #2c3e50;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  #diaryEntry {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    resize: none;
+  }
+  
+  .btn {
+    border-radius: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .entry-list {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  .entry-item {
+    background-color: #f1f8ff;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .entry-item:hover {
+    background-color: #e3f2fd;
+  }
+  
+  .entry-date {
+    font-size: 0.8em;
+    color: #7f8c8d;
+    margin-bottom: 5px;
+  }
+  
+  .sentiment-result {
+    background-color: #f1f8ff;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 20px;
+  }
+  
+  .sentiment-bar {
+    height: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: width 0.5s ease-out;
+  }
+  
+  .sentiment-label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #7f8c8d;
+    margin-bottom: 5px;
+  }
+  
+  
